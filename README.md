@@ -1,5 +1,13 @@
 # Employee Management System 🏢
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
 ## Table of Contents 📑
 - [Project Overview](#project-overview)
 - [Architecture & Technologies](#architecture--technologies)
@@ -16,34 +24,37 @@
 ## Project Overview
 A simple **Employee Management System** allowing CRUD operations (Create, Read, Update, Delete) on employee records. Built with a **React frontend**, **Spring Boot backend**, and **MySQL database**.  
 
+This project helps learn full-stack development with modern technologies and demonstrates integration between frontend, backend, and database.
+
 ---
 
-## Architecture & Technologies
+## 🛠 Architecture & Technologies
 
-| Layer                | Technology / Tool       | Description |
-|---------------------|-----------------------|-------------|
-| Frontend             | ReactJS, Bootstrap     | User interface for managing employees |
-| Backend              | Spring Boot            | REST API development and business logic |
-| Database             | MySQL                  | Stores employee data |
-| API Layer            | REST API               | Endpoints for CRUD operations |
-| Build / Deployment   | Maven, Docker          | Project build and containerization |
-| Version Control      | Git / GitHub           | Source code management |
+### Frontend
+- ⚛ **ReactJS** – Dynamic and responsive UI  
+- 💅 **Bootstrap** – Styling and responsive design  
 
-**Languages / Tools:**
+### Backend
+- 🟢 **Spring Boot** – REST API development and business logic  
+- ☕ **Java** – Backend programming language  
 
-| Category            | Technology / Language  |
-|--------------------|----------------------|
-| Programming Language| Java, JavaScript     |
-| Frontend Framework  | ReactJS, Bootstrap   |
-| Backend Framework   | Spring Boot          |
-| Database            | MySQL                |
-| API                 | REST API             |
-| Tools               | IntelliJ IDEA, VS Code, Postman |
-| Version Control     | Git / GitHub         |
+### Database
+- 🗄 **MySQL** – Relational database for employee data  
+
+### API & Testing
+- 🌐 **REST API** – CRUD endpoints for employee management  
+- 🧪 **Postman** – API testing  
+
+### DevOps & Tools
+- 📦 **Maven** – Project build and dependency management  
+- 🐳 **Docker** – Containerization (optional)  
+- 💻 **IntelliJ IDEA / VS Code** – IDEs for backend and frontend  
+- 🔗 **Git / GitHub** – Version control  
 
 ---
 
 ## Backend Setup
+
 1. Clone the repository:
 ```bash
 git clone <repo-url>
