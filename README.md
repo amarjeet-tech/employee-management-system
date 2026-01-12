@@ -1,32 +1,49 @@
-# Employee Management System (EMS) 🏢
+# Employee Management System 🏢
 
-![Project Badge](https://img.shields.io/badge/Project-Employee%20Management%20System-blue) ![Language](https://img.shields.io/badge/Language-Java%20%7C%20React-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
-
-A full-stack web application to manage employee records using **Spring Boot**, **MySQL**, and **React.js**.  
-Features include **CRUD operations, REST API integration, form validation, and responsive UI**.
-
----
-
-## Table of Contents 📋
-
-- [Project Overview](#project-overview)  
-- [Architecture](#architecture)  
-- [Technologies Used](#technologies-used)  
-- [Backend Setup](#backend-setup)  
-- [Frontend Setup](#frontend-setup)  
-- [REST API Endpoints](#rest-api-endpoints)  
-- [Features](#features)  
-- [Screenshots](#screenshots)  
-- [Future Enhancements](#future-enhancements)  
-- [License](#license)  
+## Table of Contents 📑
+- [Project Overview](#project-overview)
+- [Architecture & Technologies](#architecture--technologies)
+- [Backend Setup](#backend-setup)
+- [Frontend Setup](#frontend-setup)
+- [REST API Endpoints](#rest-api-endpoints)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
 
 ---
 
 ## Project Overview
-
-The Employee Management System allows users to **add, view, update, and delete employee records** through a **React frontend** connected to a **Spring Boot backend** with **MySQL database**.
+A simple **Employee Management System** allowing CRUD operations (Create, Read, Update, Delete) on employee records. Built with a **React frontend**, **Spring Boot backend**, and **MySQL database**.  
 
 ---
 
-## Architecture
+## Architecture & Technologies
 
+| Layer                | Technology / Tool       | Description |
+|---------------------|-----------------------|-------------|
+| Frontend             | ReactJS, Bootstrap     | User interface for managing employees |
+| Backend              | Spring Boot            | REST API development and business logic |
+| Database             | MySQL                  | Stores employee data |
+| API Layer            | REST API               | Endpoints for CRUD operations |
+| Build / Deployment   | Maven, Docker          | Project build and containerization |
+| Version Control      | Git / GitHub           | Source code management |
+
+**Languages / Tools:**
+
+| Category            | Technology / Language  |
+|--------------------|----------------------|
+| Programming Language| Java, JavaScript     |
+| Frontend Framework  | ReactJS, Bootstrap   |
+| Backend Framework   | Spring Boot          |
+| Database            | MySQL                |
+| API                 | REST API             |
+| Tools               | IntelliJ IDEA, VS Code, Postman |
+| Version Control     | Git / GitHub         |
+
+---
+
+## Backend Setup
+1. Clone the repository:
+```bash
+git clone <repo-url>
