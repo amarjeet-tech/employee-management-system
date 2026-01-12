@@ -57,4 +57,4 @@ This project helps learn full-stack development with modern technologies and dem
 
 1. Clone the repository:
 ```bash
-git clone <repo-url>
+git clone https://github.com/amarjeet-tech/employee-management-system.git
