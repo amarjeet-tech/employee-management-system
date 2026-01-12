@@ -1,0 +1,13 @@
+# Backend
+ems-backend/target/
+
+# Frontend
+employee-frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+.intellij/
+
+# OS
+.DS_Store
